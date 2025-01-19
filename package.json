@@ -2,7 +2,7 @@
   "name": "redux-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
+  "homepage": "./",
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",
     "cra-template": "1.2.0",
