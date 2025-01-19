@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/E-commerce/static/css/main.e6c13ad2.css",
+    "main.js": "/E-commerce/static/js/main.f7fa1221.js",
+    "static/media/android-chrome-512x512.png": "/E-commerce/static/media/android-chrome-512x512.7839a8d4283296f6ffd6.png",
+    "index.html": "/E-commerce/index.html",
+    "main.e6c13ad2.css.map": "/E-commerce/static/css/main.e6c13ad2.css.map",
+    "main.f7fa1221.js.map": "/E-commerce/static/js/main.f7fa1221.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.f7fa1221.js"
+  ]
+}
