@@ -1,6 +1,6 @@
 # E commerce website
 
-This project is available on .
+This project is available at ([httpsflippcart.netlify.app](https://flippcart.netlify.app/)) .
 
 ## Available Scripts
 
