@@ -1,13 +1,15 @@
 import React from 'react'
 import brandLogo from '../android-chrome-512x512.png'
+import { useSelector } from 'react-redux'
 function Navbar() {
+    const amount = useSelector(state => state.amount)
     return (
         <div>
             <nav className="navbar navbar-expand-lg bg-info fw-bold fixed-top">
                 <div className="container-fluid">
 
-                    <a class="navbar-brand" href="/">
-                        <img src={brandLogo} alt="Logo" width="38" height="30" class="d-inline-block align-text-top mx-2" />
+                    <a className="navbar-brand" href="/">
+                        <img src={brandLogo} alt="Logo" width="38" height="30" className="d-inline-block align-text-top mx-2" />
                         Flipkart
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +28,7 @@ function Navbar() {
                                 <a className="nav-link fw-medium active" href='/' >Contact</a>
                             </li>
                         </ul>
-                        <button class="btn btn-warning " >Your Balance : 5000</button>
+                        <button className="btn btn-warning " >Your Balance : {amount}</button>
                     </div>
                 </div>
             </nav>
